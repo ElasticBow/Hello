@@ -22,9 +22,17 @@ function confirm()
         }
     }
 
-    if (xbox_username == "kumagumi6132")
+    if (xbox_username == "kumagumi6132(redacted)")
     {
         if (password == "giannagrey01262005(redacted)")
+        {
+            window.location = "KumaGumi6132(redacted).html";
+        }
+    }
+
+    if (xbox_username == "kumagumi6132")
+    {
+        if (password == "giannagrey01262005")
         {
             window.location = "KumaGumi6132.html";
         }
@@ -80,7 +88,7 @@ function confirm()
 
     if (xbox_username == "darkasoak")
     {
-        if (password == "isaiahred07102006(redacted)")
+        if (password == "isaiahred07102006")
         {
             window.location = "Dark_As_Oak.html";
         }
